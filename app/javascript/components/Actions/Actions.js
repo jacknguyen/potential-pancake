@@ -1,0 +1,8 @@
+const ACTION = {
+  LOGIN:'LOGIN',
+  LOGOUT: 'LOGOUT',
+  CANCEL: 'CANCEL',
+  USERS_CREATE: 'SIGNUP'
+}
+
+export default ACTION;

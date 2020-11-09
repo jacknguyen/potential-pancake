@@ -15,6 +15,10 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+// Loading boostrap
+require('bootstrap')
+import 'bootstrap/dist/css/bootstrap'
+import '../stylesheets/application'
 
 import React from 'react'
 import { render } from 'react-dom'
